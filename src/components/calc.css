@@ -1,0 +1,89 @@
+/* calc.css */
+
+.back {
+    background-image: url(./assests/back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Set text color to white */
+  }
+  
+  .container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+  }
+  
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .category {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #28a745; /* Green shade */
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #218838; /* Darker green shade on hover */
+  }
+  
+  /* Additional styling for checked state */
+  .category input[type='checkbox']:checked + .btn-primary {
+    background-color: #218838; /* Darker green shade for checked state */
+  }
+  
+  .tick-mark {
+    width: 20px;
+    height: 20px;
+    background-color:white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .category input[type='checkbox']:checked + .tick-mark {
+    background-color: blue; /* Darker green shade for checked state */
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #28a745; /* Green shade */
+    color: #fff;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green shade on hover */
+  }
+  .butt{
+    display: flex;
+    justify-content: space-evenly;
+  }

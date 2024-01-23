@@ -1,0 +1,13 @@
+/* src/styles/custom.css */
+
+/* Override Bootstrap styles */
+.form-control {
+    border-color: #28a745;
+  }
+  
+  /* Add your own styles */
+  .custom-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
